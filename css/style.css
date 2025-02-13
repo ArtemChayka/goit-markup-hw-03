@@ -4,7 +4,6 @@ body {
   background-color: #fff;
 }
 
-/* reset */
 a {
   text-decoration: none;
 }
@@ -25,8 +24,6 @@ ul {
   margin: 0;
   padding-left: 0;
 }
-
-/* common */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -176,10 +173,6 @@ img {
   overflow: hidden;
 }
 
-.benefits-section {
-  padding: 120px 156px;
-}
-
 .benefits-section-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -210,7 +203,6 @@ img {
 
 .team-section {
   background: #f4f4fd;
-  padding: 120px 156px;
 }
 
 .team-list {
@@ -237,7 +229,8 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   width: 264px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-section-name {
@@ -264,9 +257,6 @@ img {
   padding: 32px 16px;
 }
 
-.portfolio-section {
-  padding: 120px 156px;
-}
 .portfolio-container {
   padding-bottom: 32px;
   padding-left: 16px;
@@ -282,7 +272,6 @@ img {
   width: calc((100% - 72px) / 3);
 }
 
-
 .portfolio-section-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -292,7 +281,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-item-title {
